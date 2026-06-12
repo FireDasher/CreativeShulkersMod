@@ -1,0 +1,26 @@
+{
+	"schemaVersion": 1,
+	"id": "creativeshulkers",
+	"version": "${version}",
+	"name": "CreativeShulkers",
+	"description": "Allows you to open shulker boxes from the creative inventory screen",
+	"authors": [
+		"FireDasher"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/mod/creative-shulkers",
+		"sources": "https://github.com/FireDasher/CreativeShulkersMod"
+	},
+	"license": "MIT",
+	"icon": "assets/creativeshulkers/icon.png",
+	"environment": "client",
+	"entrypoints": {},
+	"mixins": [
+		"creativeshulkers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.1.2",
+		"java": ">=25"
+	}
+}
